@@ -12,12 +12,21 @@ Para as simulações, é possível criar, consultar todas as simulações existe
 ## Como executar a aplicação 
 Os testes foram implementados no Netbeans, e para a executar a aplicação nesta IDE é necessário utilizar o Spring Tools
 
+![Screenshot](image01.png)
+
+Para executar através do Spring Boot, basta clicar com o botão direito em cima do projeto > Run As > 9 Sprint Boot App
+
+![Screenshot](image02.png)
+
 Em outras IDEs, a aplicação pode ser executada através do comando abaixo
 ```bash
 mvn clean spring-boot:run
 ```
 
 A aplicação estará disponível através da URL [http://localhost:8080](http://localhost:8080)
+
+![Screenshot](image04.png)
+
 
 
 ## Execução dos testes
@@ -26,3 +35,5 @@ Os testes foram estruturados em uma pasta separada das demais existentes. Nesta 
 - core: onde estão armazenados as constantes e implementações necessárias a todos os testes
 - tests: onde foram implementados todos os testes. Foram criadas classes de testes distintas para Restrições e Simulações
 - suite: onde é possível executar de uma única vez todos os testes existentes nas classes informadas
+
+![Screenshot](image03.png)
